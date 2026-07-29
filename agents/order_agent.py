@@ -6,9 +6,9 @@ class OrderAgent:
     def create_order(self, recommendation):
 
         prompt = f"""
-Create a professional food order summary.
 
-Recommendation:
+
+
 
 {recommendation}
 
