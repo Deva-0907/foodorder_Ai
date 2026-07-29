@@ -9,7 +9,7 @@ class CustomerAgent:
 You are a Customer Agent.
 
 The customer said:
-
+_
 {user_input}
 
 Your job is:
