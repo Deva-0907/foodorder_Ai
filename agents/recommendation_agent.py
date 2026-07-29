@@ -5,7 +5,10 @@ from llm.groq import ask_groq
 
 class RecommendationAgent:
 
-    def recommend(self, customer_details):
+    def recommend(self, customer_details, previous_recommendations=None):
+
+        if previous_recommendations is None:
+            previous_recommendations = []
 
         with open("database/menu.json", "r") as file:
             menu = json.load(file)
@@ -13,25 +16,25 @@ class RecommendationAgent:
         prompt = f"""
 You are a Food Recommendation Agent.
 
-Customer Details
-
+Customer Details:
 {customer_details}
 
-Restaurant Menu
-
+Restaurant Menu:
 {menu}
 
-Recommend THREE foods.
+Already Recommended Foods:
+{previous_recommendations}
 
-For each food include:
+Rules:
 
-Food Name
+1. Never recommend any food listed in "Already Recommended Foods".
+2. Recommend the BEST THREE different foods.
+3. Show:
+   - Food Name
+   - Price (LKR)
+   - Reason
 
-Price (LKR)
-
-Reason
-
-Return only English.
+Return English only.
 """
 
         return ask_groq(prompt)
