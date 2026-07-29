@@ -12,23 +12,17 @@ client = OpenAI(
 
 
 def ask_openrouter(prompt):
-
     response = client.chat.completions.create(
- feature/agents
         model="gpt-4o-mini",
-
-        feature/llm
-        model="openai/gpt-4o-mini",
-
-        model="gpt-4o-mini",
-        main
-main
         messages=[
             {
-                "role":"user",
-                "content":prompt
+                "role": "user",
+                "content": prompt
             }
         ]
     )
 
-    return response.choices[0].message.content
+    try:
+        return response.choices[0].message.content
+    except Exception:
+        return str(response)

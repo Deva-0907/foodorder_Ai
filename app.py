@@ -12,46 +12,32 @@ restaurant = RestaurantAgent()
 order = OrderAgent()
 
 
-feature/agents
+
 st.title("😋 Foodorder AI")
-st.title("🍔 FoodFlow AI")
- main
 st.subheader("Multi-Agent Food Ordering Assistant")
 
 
-user_input = st.text_input(
-    "What would you like to eat?"
-)
+user_input = st.text_input("What would you like to eat?")
 
 
-if st.button("Find Food"):
+if st.button("Find Food") and user_input.strip():
+    with st.spinner("Customer Agent Working..."):
+        customer_details = customer.understand_customer(user_input)
 
-     feature/agents
-    if user_input.strip():
-    if user_input:
-main
+    st.success("Customer Agent Finished")
+    st.write(customer_details)
 
-        with st.spinner("Customer Agent Working..."):
-            customer_details = customer.understand_customer(user_input)
+    menu = restaurant.check_menu()
 
-        st.success("Customer Agent Finished")
+    with st.spinner("Recommendation Agent Working..."):
+        food = recommendation.recommend(customer_details)
 
-        st.write(customer_details)
+    st.success("Recommendation Ready")
+    st.write(food)
 
-        menu = restaurant.check_menu()
+    with st.spinner("Order Agent Creating Order..."):
+        summary = order.create_order(food)
 
-        with st.spinner("Recommendation Agent Working..."):
-            food = recommendation.recommend(customer_details)
-
-        st.success("Recommendation Ready")
-
-        st.write(food)
-
-        with st.spinner("Order Agent Creating Order..."):
-            summary = order.create_order(food)
-
-        st.success("Order Created")
-
-        st.markdown("## Final Order")
-
-        st.write(summary)
+    st.success("Order Created")
+    st.markdown("## Final Order")
+    st.write(summary)

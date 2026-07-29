@@ -4,9 +4,7 @@ from llm.openrouter import ask_openrouter
 class OrderAgent:
 
     def create_order(self, recommendation):
-
         prompt = f"""
-
 
 {recommendation}
 
@@ -18,5 +16,6 @@ Include:
 
 - Thank You Message
 
+"""
 
         return ask_openrouter(prompt)
