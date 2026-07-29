@@ -1,4 +1,3 @@
- feature/agents
 
 
 
@@ -79,10 +78,6 @@ chroma/
 *.swp
 *.swo
 
-# ==========================
-# Cache
-# ==========================
- feature/agents
 .cache/
 .cache/
  main
