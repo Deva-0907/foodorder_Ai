@@ -22,5 +22,742 @@
         "category": "Sri Lankan",
         "price": 700,
         "spicy": true
-    }
+    },
+     
+  {
+    "name": "Sprite",
+    "category": "Beverages",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Fanta Orange",
+    "category": "Beverages",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Ginger Beer",
+    "category": "Beverages",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "King Coconut",
+    "category": "Beverages",
+    "price": 200,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Fresh Lime Juice",
+    "category": "Beverages",
+    "price": 250,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Mango Juice",
+    "category": "Beverages",
+    "price": 300,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Watermelon Juice",
+    "category": "Beverages",
+    "price": 280,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Iced Coffee",
+    "category": "Beverages",
+    "price": 350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Milk Tea",
+    "category": "Beverages",
+    "price": 150,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Plain Tea",
+    "category": "Beverages",
+    "price": 100,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Faluda",
+    "category": "Beverages",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Rice",
+    "category": "Non Vegetarian",
+    "price": 850,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Chicken Curry Rice",
+    "category": "Non Vegetarian",
+    "price": 900,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Beef Curry Rice",
+    "category": "Non Vegetarian",
+    "price": 1050,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Mutton Curry Rice",
+    "category": "Non Vegetarian",
+    "price": 1150,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Devilled Chicken",
+    "category": "Non Vegetarian",
+    "price": 1000,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Chicken Biryani",
+    "category": "Non Vegetarian",
+    "price": 950,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Mutton Biryani",
+    "category": "Non Vegetarian",
+    "price": 1300,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "category": "Non Vegetarian",
+    "price": 800,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Noodles",
+    "category": "Non Vegetarian",
+    "price": 750,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Kottu",
+    "category": "Sri Lankan",
+    "price": 900,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Egg Kottu",
+    "category": "Sri Lankan",
+    "price": 750,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Cheese Kottu",
+    "category": "Sri Lankan",
+    "price": 950,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Vegetable Kottu",
+    "category": "Sri Lankan",
+    "price": 700,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "String Hoppers",
+    "category": "Sri Lankan",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Hoppers with Egg",
+    "category": "Sri Lankan",
+    "price": 350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Plain Hoppers",
+    "category": "Sri Lankan",
+    "price": 250,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Pittu with Curry",
+    "category": "Sri Lankan",
+    "price": 600,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Milk Rice",
+    "category": "Sri Lankan",
+    "price": 300,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Lamprais",
+    "category": "Sri Lankan",
+    "price": 1100,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Fish Curry Rice",
+    "category": "Seafood",
+    "price": 950,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Prawn Curry",
+    "category": "Seafood",
+    "price": 1300,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Devilled Prawns",
+    "category": "Seafood",
+    "price": 1400,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Crab Curry",
+    "category": "Seafood",
+    "price": 1800,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Cuttlefish Curry",
+    "category": "Seafood",
+    "price": 1200,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Grilled Fish",
+    "category": "Seafood",
+    "price": 1350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Deviled Fish",
+    "category": "Seafood",
+    "price": 1250,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Seafood Fried Rice",
+    "category": "Seafood",
+    "price": 1100,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Prawn Noodles",
+    "category": "Seafood",
+    "price": 1050,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Fish Cutlet",
+    "category": "Seafood",
+    "price": 150,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Veg Burger",
+    "category": "Vegetarian",
+    "price": 500,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Veg Fried Rice",
+    "category": "Vegetarian",
+    "price": 600,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Veg Noodles",
+    "category": "Vegetarian",
+    "price": 550,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Veg Biryani",
+    "category": "Vegetarian",
+    "price": 700,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Veg Sandwich",
+    "category": "Vegetarian",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Veg Shawarma",
+    "category": "Vegetarian",
+    "price": 600,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Dhal Curry",
+    "category": "Vegetarian",
+    "price": 350,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Jackfruit Curry",
+    "category": "Vegetarian",
+    "price": 500,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Potato Curry",
+    "category": "Vegetarian",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Cashew Curry",
+    "category": "Vegetarian",
+    "price": 900,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Mixed Vegetable Curry",
+    "category": "Vegetarian",
+    "price": 500,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Egg Curry",
+    "category": "Vegetarian",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Paneer Curry",
+    "category": "Vegetarian",
+    "price": 750,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Gotu Kola Sambol",
+    "category": "Vegetarian",
+    "price": 300,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Pizza",
+    "category": "Fast Food",
+    "price": 1200,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Margherita Pizza",
+    "category": "Fast Food",
+    "price": 1100,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Pizza",
+    "category": "Fast Food",
+    "price": 1350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "category": "Fast Food",
+    "price": 1450,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Seafood Pizza",
+    "category": "Fast Food",
+    "price": 1600,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Burger",
+    "category": "Fast Food",
+    "price": 650,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Cheese Burger",
+    "category": "Fast Food",
+    "price": 700,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Spicy Chicken Burger",
+    "category": "Fast Food",
+    "price": 750,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Fish Burger",
+    "category": "Fast Food",
+    "price": 700,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "French Fries",
+    "category": "Fast Food",
+    "price": 350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Cheese Fries",
+    "category": "Fast Food",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Wings",
+    "category": "Fast Food",
+    "price": 800,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Chicken Nuggets",
+    "category": "Fast Food",
+    "price": 600,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Hot Dog",
+    "category": "Fast Food",
+    "price": 500,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Club Sandwich",
+    "category": "Fast Food",
+    "price": 650,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Grilled Chicken Sandwich",
+    "category": "Fast Food",
+    "price": 700,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Shawarma",
+    "category": "Fast Food",
+    "price": 750,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Chicken Quesadilla",
+    "category": "Fast Food",
+    "price": 850,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Nachos",
+    "category": "Fast Food",
+    "price": 550,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Onion Rings",
+    "category": "Fast Food",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Kebab",
+    "category": "Fast Food",
+    "price": 700,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Chicken Soup",
+    "category": "Soup",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Sweet Corn Soup",
+    "category": "Soup",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Cream of Mushroom Soup",
+    "category": "Soup",
+    "price": 500,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Seafood Soup",
+    "category": "Soup",
+    "price": 600,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Tom Yum Soup",
+    "category": "Soup",
+    "price": 650,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Vegetable Soup",
+    "category": "Soup",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Watalappan",
+    "category": "Dessert",
+    "price": 350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Ice Cream",
+    "category": "Dessert",
+    "price": 300,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chocolate Cake",
+    "category": "Dessert",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Fruit Salad",
+    "category": "Dessert",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Curd with Treacle",
+    "category": "Dessert",
+    "price": 350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chocolate Brownie",
+    "category": "Dessert",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Cheesecake",
+    "category": "Dessert",
+    "price": 500,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Vanilla Pudding",
+    "category": "Dessert",
+    "price": 300,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Kottu Roti (Vegetable)",
+    "category": "Sri Lankan",
+    "price": 650,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Godamba Roti",
+    "category": "Sri Lankan",
+    "price": 200,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Chicken Roti",
+    "category": "Sri Lankan",
+    "price": 550,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Egg Roti",
+    "category": "Sri Lankan",
+    "price": 450,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Vegetable Roti",
+    "category": "Sri Lankan",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Idiyappam",
+    "category": "Sri Lankan",
+    "price": 350,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Dosa",
+    "category": "Sri Lankan",
+    "price": 400,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Masala Dosa",
+    "category": "Sri Lankan",
+    "price": 500,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Vadai",
+    "category": "Sri Lankan",
+    "price": 100,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Samosa",
+    "category": "Sri Lankan",
+    "price": 120,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Rolls (Chicken)",
+    "category": "Sri Lankan",
+    "price": 150,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Cutlet (Fish)",
+    "category": "Sri Lankan",
+    "price": 130,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Butter Chicken",
+    "category": "Non Vegetarian",
+    "price": 1050,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Chicken Tikka",
+    "category": "Non Vegetarian",
+    "price": 950,
+    "currency": "LKR",
+    "spicy": true
+  },
+  {
+    "name": "Grilled Chicken",
+    "category": "Non Vegetarian",
+    "price": 1000,
+    "currency": "LKR",
+    "spicy": false
+  },
+  {
+    "name": "Roast Chicken",
+    "category": "Non Vegetarian",
+    "price": 1100,
+    "currency": "LKR",
+    "spicy": false
+  }
 ]
+
