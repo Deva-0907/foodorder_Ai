@@ -1,6 +1,8 @@
-# ==========================
-# Python
-# ==========================
+ feature/agents
+
+
+
+main
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,7 +11,9 @@ __pycache__/
 venv/
 .venv/
 env/
-ENV/
+ feature/agents
+env/
+ main
 
 
 .env
@@ -78,4 +82,7 @@ chroma/
 # ==========================
 # Cache
 # ==========================
+ feature/agents
 .cache/
+.cache/
+ main

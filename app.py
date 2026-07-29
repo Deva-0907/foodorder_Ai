@@ -12,7 +12,10 @@ restaurant = RestaurantAgent()
 order = OrderAgent()
 
 
+feature/agents
+st.title("😋 Foodorder AI")
 st.title("🍔 FoodFlow AI")
+ main
 st.subheader("Multi-Agent Food Ordering Assistant")
 
 
@@ -23,7 +26,10 @@ user_input = st.text_input(
 
 if st.button("Find Food"):
 
+     feature/agents
+    if user_input.strip():
     if user_input:
+main
 
         with st.spinner("Customer Agent Working..."):
             customer_details = customer.understand_customer(user_input)
