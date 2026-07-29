@@ -5,12 +5,12 @@ class CustomerAgent:
 
     def understand_customer(self, user_input):
 
-      prompt = f"""
+        prompt = f"""
 You are a Customer Agent.
 
 The customer said:
 _
-{user_input}
+    {user_input}
 
 Your job is:
 
@@ -39,4 +39,4 @@ Suggested Foods:
 Use English only.
 """
 
-      return ask_openrouter(prompt)
+        return ask_openrouter(prompt)
