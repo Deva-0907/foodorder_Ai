@@ -1,0 +1,81 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables (DO NOT COMMIT API KEYS)
+.env
+
+# ==========================
+# Streamlit
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# IDE Files
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Python Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Local Databases
+# ==========================
+*.db
+*.sqlite3
+
+# ==========================
+# ChromaDB (if using RAG later)
+# ==========================
+chroma_db/
+chroma/
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==========================
+# Cache
+# ==========================
+.cache/
