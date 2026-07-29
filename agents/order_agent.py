@@ -8,8 +8,6 @@ class OrderAgent:
         prompt = f"""
 
 
-
-
 {recommendation}
 
 Include:
@@ -18,6 +16,7 @@ Include:
 - Estimated Price
 - Quantity
 
-"""
+- Thank You Message
+
 
         return ask_openrouter(prompt)
