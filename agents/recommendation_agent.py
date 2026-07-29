@@ -13,17 +13,25 @@ class RecommendationAgent:
         prompt = f"""
 You are a Food Recommendation Agent.
 
-Customer Details:
+Customer Details
 
 {customer_details}
 
-Available Menu:
+Restaurant Menu
 
 {menu}
 
-Recommend the best food.
+Recommend THREE foods.
 
-Explain why.
+For each food include:
+
+Food Name
+
+Price (LKR)
+
+Reason
+
+Return only English.
 """
 
         return ask_groq(prompt)
