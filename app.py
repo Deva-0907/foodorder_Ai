@@ -23,7 +23,7 @@ user_input = st.text_input(
 
 if st.button("Find Food"):
 
-    if user_input:
+    if user_input.strip():
 
         with st.spinner("Customer Agent Working..."):
             customer_details = customer.understand_customer(user_input)

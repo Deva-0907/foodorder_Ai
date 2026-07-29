@@ -5,21 +5,38 @@ class CustomerAgent:
 
     def understand_customer(self, user_input):
 
-        prompt = f"""
-You are a Customer Understanding Agent.
+      prompt = f"""
+You are a Customer Agent.
 
-Extract the following information from the user's request.
+The customer said:
 
-- Food preference
-- Budget
-- Cuisine
-- Spice level
-- Quantity
-
-User Request:
 {user_input}
 
-Return the result in a simple readable format.
+Your job is:
+
+1. Understand the request.
+2. Extract:
+- Food Preference
+- Budget
+- Cuisine
+- Quantity
+3. Suggest FIVE possible foods the customer may like.
+
+Return the result in this format.
+
+Food Preference:
+Budget:
+Cuisine:
+Quantity:
+
+Suggested Foods:
+1.
+2.
+3.
+4.
+5.
+
+Use English only.
 """
 
-        return ask_openrouter(prompt)
+      return ask_openrouter(prompt)
