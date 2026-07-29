@@ -14,7 +14,11 @@ client = OpenAI(
 def ask_openrouter(prompt):
 
     response = client.chat.completions.create(
+        feature/llm
         model="openai/gpt-4o-mini",
+
+        model="gpt-4o-mini",
+        main
         messages=[
             {
                 "role":"user",
