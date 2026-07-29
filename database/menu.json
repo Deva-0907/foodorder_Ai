@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Chicken Rice",
+        "category": "Non Vegetarian",
+        "price": 850,
+        "spicy": true
+    },
+    {
+        "name": "Veg Burger",
+        "category": "Vegetarian",
+        "price": 500,
+        "spicy": false
+    },
+    {
+        "name": "Pizza",
+        "category": "Fast Food",
+        "price": 1200,
+        "spicy": false
+    },
+    {
+        "name": "Kottu",
+        "category": "Sri Lankan",
+        "price": 700,
+        "spicy": true
+    }
+]

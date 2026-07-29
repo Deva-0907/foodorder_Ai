@@ -1,24 +1,22 @@
 import os
-from openai import OpenAI
+from groq import Groq
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
 
-client = OpenAI(
-    api_key=os.getenv("OPENROUTER_API_KEY"),
-    base_url="https://openrouter.ai/api/v1"
+client = Groq(
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 
-def ask_openrouter(prompt):
+def ask_groq(prompt):
 
     response = client.chat.completions.create(
-        feature/llm
-        model="openai/gpt-4o-mini",
 
-        model="gpt-4o-mini",
-        main
+        model="llama-3.1-8b-instant",
+
         messages=[
             {
                 "role":"user",
@@ -26,5 +24,6 @@ def ask_openrouter(prompt):
             }
         ]
     )
+
 
     return response.choices[0].message.content
