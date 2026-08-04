@@ -12,7 +12,7 @@ FoodOrder_Ai is a lightweight multi-agent demo that demonstrates a retrieval-aug
 - RestaurantAgent: simple accessor for the menu file.
 - OrderAgent: formats a final order summary.
 
-Open http://localhost:8501 to view the running demo.
+Open https://deva-0907-foodorder-ai-app-lh66qj.streamlit.app/ to view the running demo.
 
 ## Model-choice comparison
 
