@@ -56,6 +56,15 @@ RAG combines an external knowledge source (here, `database/menu.json`) with a ge
 ## Live Streamlit demo link
 
 - Local demo: https://deva-0907-foodorder-ai-app-lh66qj.streamlit.app/
+## screenshot
+
+<img width="942" height="470" alt="output" src="https://github.com/user-attachments/assets/7cf5d125-91ff-45ca-a030-aceac6dfcc24" />
+<img width="928" height="808" alt="output1" src="https://github.com/user-attachments/assets/0a2abcc2-edef-4516-92d5-29f407a1b440" />
+<img width="907" height="829" alt="output2" src="https://github.com/user-attachments/assets/945488e3-6231-42b2-91cf-2791687c4ca9" />
+<img width="916" height="749" alt="output3" src="https://github.com/user-attachments/assets/ef9a25bb-e41a-45c7-922c-121bdb921199" />
+
+
+
 
 
 ## Next steps / Suggestions
