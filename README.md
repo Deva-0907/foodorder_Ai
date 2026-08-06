@@ -64,3 +64,10 @@ RAG combines an external knowledge source (here, `database/menu.json`) with a ge
 - Add tests and CI checks, and improve prompt templates with few-shot examples.
 - Harden the `llm/openrouter.py` client wrapper to support fallback providers and retries.
 
+# 👨‍💻 Author
+
+T.Devanivethitha
+
+IT Undergraduate
+
+---
