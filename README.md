@@ -25,22 +25,8 @@ Open https://deva-0907-foodorder-ai-app-lh66qj.streamlit.app/ to view the runnin
 Notes: choose models based on budget, latency, and required reasoning. For production, benchmark with representative prompts and traffic.
 
 ## Agent-communication diagram
-User
-   │
-   ▼
-Customer Agent
-   │
-   ▼
-Recommendation Agent
-   │
-   ▼
-Restaurant Agent
-   │
-   ▼
-Order Agent
-   │
-   ▼
-Final Response
+
+<img width="1024" height="1536" alt="ChatGPT Image Aug 6, 2026, 10_48_30 AM" src="https://github.com/user-attachments/assets/c4e7d640-8892-41c2-a13f-ffb3acd22cf0" />
 
 
 ## Retrieval-Augmented Generation (RAG) pipeline
